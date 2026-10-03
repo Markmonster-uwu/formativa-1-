@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
@@ -8,240 +8,251 @@
   </head>
 
   <body>
-    <!--Inicio Header-->
-    <header>
+    <!-- Header y Navegación -->
+    <header id="inicio">
       <nav class="navbar container">
-        <a href="#">
+        <a href="#inicio">
           <img class="logo-navbar" src="img/logo.png" alt="Logo EIRP+" />
         </a>
 
         <ul class="nav-items">
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Nosotros</a></li>
-          <li><a href="#">Servicios</a></li>
-          <li><a href="#">Cobertura</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#cobertura">Cobertura</a></li>
+          <li><a href="#contacto">Contacto</a></li>
         </ul>
 
-        <a class="btn btn-amarillo" href="#">Solicitar cotización</a>
+        <a class="btn btn-amarillo" href="#contacto">Solicitar cotización</a>
       </nav>
 
+      <!-- Banner Hero -->
       <section class="hero">
         <article class="texto-header container">
-          <p class="subtitulo">Operación industrial continua</p>
-
+          <p class="subtitulo-etiqueta">OPERACIÓN INDUSTRIAL CONTINUA</p>
           <h1 class="texto-blanco">Higiene Industrial Plus EIRP</h1>
-
           <h2 class="texto-verde">Soluciones limpias para obras seguras</h2>
-
-          <p class="texto-blanco">
+          <p class="texto-blanco bajada-hero">
             Limpieza, seguridad y energía para minería e industria, con
             respuesta operativa 24/7 en el Norte Grande.
           </p>
 
-          <div>
-            <a class="btn btn-amarillo" href="#">Solicitar cotización</a>
-            <a class="btn btn-blanco" href="#">Ver servicios</a>
+          <div class="hero-botones">
+            <a class="btn btn-amarillo" href="#contacto">Solicitar cotización</a>
+            <a class="btn btn-blanco" href="#servicios">Ver servicios</a>
           </div>
         </article>
       </section>
-      <!--Fin Header-->
     </header>
-    <!--Inicio nosotros-->
-    <section>
-      <article class="container sobre-nosotros">
-        <div>
-          <p class="texto-amarillo">Nosotros</p>
 
-          <h2 class="texto-azul subtitulo">¿Quiénes somos?</h2>
+    <main>
+      <!-- Sección Nosotros -->
+      <section id="nosotros" class="seccion-nosotros container">
+        <article class="sobre-nosotros">
+          <div class="nosotros-texto">
+            <p class="texto-amarillo etiqueta-seccion">NOSOTROS</p>
+            <h2 class="texto-azul titulo-seccion">¿Quiénes somos?</h2>
+            <p>
+              Somos una empresa orientada a entregar soluciones integrales de
+              higiene industrial, mantenimiento y obras civiles para sectores
+              productivos de alta exigencia.
+            </p>
+            <p>
+              Nuestro objetivo es apoyar la continuidad operativa de cada cliente
+              mediante un servicio seguro, eficiente y responsable con el entorno.
+            </p>
+          </div>
+          <div class="nosotros-imagen">
+            <img src="img/about.png" alt="Trabajadores de higiene industrial" />
+          </div>
+        </article>
+      </section>
 
-          <p>
-            Somos una empresa orientada a entregar soluciones integrales de
-            higiene industrial, mantenimiento y obras civiles para sectores
-            productivos de alta exigencia.
-          </p>
+      <!-- Sección Valores Diferenciales -->
+      <section class="seccion-valores">
+        <div class="container">
+          <p class="texto-amarillo etiqueta-seccion">VALOR DIFERENCIAL</p>
+          <h2 class="texto-blanco titulo-seccion">¿Por qué elegir EIRP+?</h2>
 
-          <p>
-            Nuestro objetivo es apoyar la continuidad operativa de cada cliente
-            mediante un servicio seguro, eficiente y responsable con el entorno.
-          </p>
+          <div class="valores-grid">
+            <article class="valor-card">
+              <span class="valor-numero">01</span>
+              <h3>Gestión integral</h3>
+              <p>
+                Un solo equipo para limpieza industrial, mantenimiento general y apoyo
+                en obras civiles menores.
+              </p>
+            </article>
+
+            <article class="valor-card">
+              <span class="valor-numero">02</span>
+              <h3>Respuesta 24/7</h3>
+              <p>Atención rápida para emergencias operativas en ciudad y faena.</p>
+            </article>
+
+            <article class="valor-card">
+              <span class="valor-numero">03</span>
+              <h3>Enfoque sustentable</h3>
+              <p>
+                Uso de procesos y productos que protegen activos, personas y medio
+                ambiente.
+              </p>
+            </article>
+          </div>
         </div>
-        <div>
-          <img src="img/about.png" alt="Trabajador de higiene industrial" />
+      </section>
+
+      <!-- Sección Servicios -->
+      <section id="servicios" class="seccion-servicios container">
+        <p class="texto-amarillo etiqueta-seccion">SERVICIOS</p>
+        <h2 class="texto-azul titulo-seccion">Nuestros servicios</h2>
+        <p class="descripcion-seccion">
+          Soluciones pensadas para empresas que necesitan continuidad, seguridad y
+          eficiencia en sus operaciones.
+        </p>
+
+        <div class="servicios-grid">
+          <!-- Servicio 1 -->
+          <article class="servicio-card">
+            <div class="icono-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#003366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            </div>
+            <h3>Energía y paneles solares</h3>
+            <p>
+              Limpieza y mantenimiento de plantas fotovoltaicas para mejorar la
+              captación de energía y proteger los equipos.
+            </p>
+            <ul>
+              <li>Limpieza técnica de paneles</li>
+              <li>Cuidado de superficies</li>
+              <li>Mejora del rendimiento energético</li>
+            </ul>
+          </article>
+
+          <!-- Servicio 2 -->
+          <article class="servicio-card">
+            <div class="icono-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#003366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+            </div>
+            <h3>Mantenimiento y obras civiles</h3>
+            <p>
+              Apoyo en reparaciones, pintura, gasfitería, electricidad y obras menores
+              para instalaciones industriales.
+            </p>
+            <ul>
+              <li>Reparaciones locativas</li>
+              <li>Pintura industrial</li>
+              <li>Instalaciones eléctricas básicas</li>
+            </ul>
+          </article>
+
+          <!-- Servicio 3 -->
+          <article class="servicio-card">
+            <div class="icono-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#003366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </div>
+            <h3>Aseo industrial</h3>
+            <p>
+              Limpieza profunda de plantas, bodegas, talleres, oficinas y espacios de
+              alta exigencia operacional.
+            </p>
+            <ul>
+              <li>Limpieza de infraestructura</li>
+              <li>Habitabilidad minera</li>
+              <li>Desengrasado y despeje de áreas críticas</li>
+            </ul>
+          </article>
         </div>
-      </article>
-    </section>
-    <!--Fin nosotros-->
+      </section>
 
-    <!--Inicio valores-->
-    <p class="texto-amarillo">Valor diferencial</p>
+      <!-- Sección Cobertura -->
+      <section id="cobertura" class="seccion-cobertura">
+        <div class="container cobertura-container">
+          <div class="cobertura-info">
+            <p class="texto-amarillo etiqueta-seccion">COBERTURA Y SEGURIDAD</p>
+            <h2 class="texto-azul titulo-seccion">Operación en el Norte Grande</h2>
+            <p>
+              EIRP+ cuenta con despliegue operativo en zonas estratégicas para
+              atender requerimientos de minería, industria y servicios privados.
+            </p>
+            <ul class="cobertura-lista">
+              <li><span>✓</span> Operaciones con enfoque cero accidentes.</li>
+              <li><span>✓</span> Personal calificado y supervisión preventiva.</li>
+              <li><span>✓</span> Cobertura en Arica, Iquique, Calama y Antofagasta.</li>
+            </ul>
+          </div>
 
-    <h2 class="texto-blanco">¿Por qué elegir EIRP+?</h2>
+          <div class="cobertura-card">
+            <h3>Zonas de atención</h3>
+            <p>
+              Prestamos servicios en distintas ciudades del norte de Chile y otras zonas
+              según requerimiento del cliente.
+            </p>
+            <div class="cobertura-chips">
+              <span class="chip">Arica</span>
+              <span class="chip">Iquique</span>
+              <span class="chip">Calama</span>
+              <span class="chip">Antofagasta</span>
+              <span class="chip">Santiago</span>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    <div class contenido-no-margen>
-      <span>01</span>
+      <!-- Sección Contacto -->
+      <section id="contacto" class="seccion-contacto container">
+        <div class="contacto-container">
+          <div class="contacto-info">
+            <p class="texto-amarillo etiqueta-seccion">CONTACTO</p>
+            <h2 class="texto-azul titulo-seccion">Solicita una cotización</h2>
+            <p>
+              Completa el formulario y cuéntanos qué tipo de servicio necesita tu
+              empresa.
+            </p>
 
-      <h3>Gestión integral</h3>
+            <div class="contacto-caja-datos">
+              <p><strong>Teléfono:</strong> (+56) 9 8835 5559</p>
+              <p><strong>Email:</strong> Empresas.higiene.eirp@gmail.com</p>
+              <p><strong>Dirección:</strong> José Antonio Aldunate 2811, Arica</p>
+            </div>
+          </div>
 
-      <p>
-        Un solo equipo para limpieza industrial, mantenimiento general y apoyo
-        en obras civiles menores.
-      </p>
-    </div>
-    <div class="valores-contenido">
-      <span>02</span>
+          <form class="formulario-contacto">
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input id="nombre" type="text" placeholder="Ingresa tu nombre" required />
+            </div>
 
-      <h3 class="">Respuesta 24/7</h3>
+            <div class="form-group">
+              <label for="empresa">Empresa</label>
+              <input id="empresa" type="text" placeholder="Nombre de la empresa" required />
+            </div>
 
-      <p>Atención rápida para emergencias operativas en ciudad y faena.</p>
-    </div>
-    <div>
-      <span>03</span>
+            <div class="form-group">
+              <label for="telefono">Teléfono</label>
+              <input id="telefono" type="tel" placeholder="Ej: +56 9 1234 5678" required />
+            </div>
 
-      <h3>Enfoque sustentable</h3>
+            <div class="form-group">
+              <label for="email">Correo electrónico</label>
+              <input id="email" type="email" placeholder="correo@empresa.cl" required />
+            </div>
 
-      <p>
-        Uso de procesos y productos que protegen activos, personas y medio
-        ambiente.
-      </p>
-    </div>
-    <!--Fin valores-->
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" rows="4" placeholder="Describe tu requerimiento" required></textarea>
+            </div>
 
-    <!--Inicio nuestros servicios-->
-    <h2>Nuestros servicios</h2>
+            <button type="submit" class="btn btn-amarillo btn-full">Enviar solicitud</button>
+          </form>
+        </div>
+      </section>
+    </main>
 
-    <p>
-      Soluciones pensadas para empresas que necesitan continuidad, seguridad y
-      eficiencia en sus operaciones.
-    </p>
-
-    <div>☀</div>
-
-    <h3>Energía y paneles solares</h3>
-
-    <p>
-      Limpieza y mantenimiento de plantas fotovoltaicas para mejorar la
-      captación de energía y proteger los equipos.
-    </p>
-
-    <ul>
-      <li>Limpieza técnica de paneles</li>
-      <li>Cuidado de superficies</li>
-      <li>Mejora del rendimiento energético</li>
-    </ul>
-
-    <div>⚙</div>
-
-    <h3>Mantenimiento y obras civiles</h3>
-
-    <p>
-      Apoyo en reparaciones, pintura, gasfitería, electricidad y obras menores
-      para instalaciones industriales.
-    </p>
-
-    <ul>
-      <li>Reparaciones locativas</li>
-      <li>Pintura industrial</li>
-      <li>Instalaciones eléctricas básicas</li>
-    </ul>
-
-    <div>+</div>
-
-    <h3>Aseo industrial</h3>
-
-    <p>
-      Limpieza profunda de plantas, bodegas, talleres, oficinas y espacios de
-      alta exigencia operacional.
-    </p>
-
-    <ul>
-      <li>Limpieza de infraestructura</li>
-      <li>Habitabilidad minera</li>
-      <li>Desengrasado y despeje de áreas críticas</li>
-    </ul>
-    <!--Fin nuestros servicios-->
-
-    <!--Inicio cobertura-->
-    <p>Cobertura y seguridad</p>
-
-    <h2>Operación en el Norte Grande</h2>
-
-    <p>
-      EIRP+ cuenta con despliegue operativo en zonas estratégicas para atender
-      requerimientos de minería, industria y servicios privados.
-    </p>
-
-    <ul>
-      <li>Operaciones con enfoque cero accidentes.</li>
-      <li>Personal calificado y supervisión preventiva.</li>
-      <li>Cobertura en Arica, Iquique, Calama y Antofagasta.</li>
-    </ul>
-
-    <h3>Zonas de atención</h3>
-
-    <p>
-      Prestamos servicios en distintas ciudades del norte de Chile y otras zonas
-      según requerimiento del cliente.
-    </p>
-
-    <span>Arica</span>
-    <span>Iquique</span>
-    <span>Calama</span>
-    <span>Antofagasta</span>
-    <span>Santiago</span>
-    <!--Fin Cobertura-->
-
-    <!--Inicio contacto-->
-    <p>Contacto</p>
-
-    <h2>Solicita una cotización</h2>
-
-    <p>
-      Completa el formulario y cuéntanos qué tipo de servicio necesita tu
-      empresa.
-    </p>
-
-    <p><strong>Teléfono:</strong> (+56) 9 8835 5559</p>
-    <p><strong>Email:</strong> Empresas.higiene.eirp@gmail.com</p>
-    <p><strong>Dirección:</strong> José Antonio Aldunate 2811, Arica</p>
-
-    <form>
-      <h3>Datos de contacto</h3>
-
-      <div>
-        <label for="nombre">Nombre</label>
-        <input id="nombre" type="text" placeholder="Ingresa tu nombre" />
-      </div>
-
-      <div>
-        <label for="empresa">Empresa</label>
-        <input type="text" placeholder="Nombre de la empresa" />
-      </div>
-
-      <div>
-        <label for="telefono">Teléfono</label>
-        <input type="tel" placeholder="Ej: +56 9 1234 5678" />
-      </div>
-
-      <div>
-        <label for="email">Correo electrónico</label>
-        <input type="email" placeholder="correo@empresa.cl" />
-      </div>
-
-      <div>
-        <label for="mensaje">Mensaje</label>
-        <textarea rows="5" placeholder="Describe tu requerimiento"></textarea>
-      </div>
-
-      <button type="submit">Enviar solicitud</button>
-    </form>
-    <!--Fin contacto-->
-
-    <!--Inicio footer-->
-
+    <!-- Footer -->
     <footer>
-      <article class="contenido-footer">
-        <section class="contenido-superior container">
+      <div class="container contenido-footer">
+        <section class="contenido-superior">
           <div>
             <h2 class="texto-amarillo no-margen">EIRP+</h2>
             <p>Soluciones limpias para obras seguras.</p>
@@ -263,13 +274,11 @@
             <p>(+56) 9 8835 5559</p>
           </div>
         </section>
+
         <section class="contenido-inferior">
-          <p>
-            © 2026 Higiene Industrial Plus EIRP. Todos los derechos reservados.
-          </p>
+          <p>© 2026 Higiene Industrial Plus EIRP. Todos los derechos reservados.</p>
         </section>
-      </article>
-      <!--Fin footer-->
+      </div>
     </footer>
   </body>
 </html>
